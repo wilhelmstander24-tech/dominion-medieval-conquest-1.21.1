@@ -9,19 +9,25 @@
 	],
 	"contact": {
 		"homepage": "",
-		"sources": "https://github.com/Voxelogics"
+		"sources": "https://github.com/wilhelmstander24-tech/dominion-medieval-conquest-1.21.1"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/dominion/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"com.voxel.dominion.DominionMedievalConquest"
+      "main": [
+        "com.voxel.dominion.DominionMedievalConquest"
+      ],
+		"client": [
+			"com.voxel.dominion.DominionClient"
 		],
-		"fabric-datagen": [
-			"com.voxel.dominion.DominionMedievalConquestDataGenerator"
-		]
-	},
+      "fabric-datagen": [
+        "com.voxel.dominion.DominionMedievalConquestDataGenerator"
+      ],
+      "server": [],
+      "fabric-gametest": [],
+      "preLaunch": []
+    },
 	"mixins": [
 		"dominion.mixins.json"
 	],

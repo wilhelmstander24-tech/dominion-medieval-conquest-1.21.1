@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:itm/generated",
+  "textures": {
+    "layer0": "dominion:item/gold_coin"
+  }
+}
